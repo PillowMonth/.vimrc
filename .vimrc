@@ -119,8 +119,8 @@ nnoremap <silent> <C-p> :Files<CR>
 """"""""""""""""""""""""""""""                             "surround
 Plug 'tpope/vim-surround'                                  
 
-""""""""""""""""""""""""""""""
-Plug 'preservim/nerdcommenter'                             "注释工具
+""""""""""""""""""""""""""""""                             "注释工具
+Plug 'preservim/nerdcommenter'                             
 " Add spaces after comment delimiters by default
 let g:NERDSpaceDelims = 1
 " Align line-wise comment delimiters flush left instead of following code indentation
