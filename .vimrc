@@ -104,8 +104,8 @@ Plug 'skywind3000/vim-terminal-help'
 Plug 'timothycrosley/isort'
 autocmd FileType python nnoremap <F9> :!isort %<CR><CR>
 
-""""""""""""""""""""""""""""""
-Plug 'Chiel92/vim-autoformat'                              "格式化
+""""""""""""""""""""""""""""""                             "格式化
+Plug 'Chiel92/vim-autoformat'
 Plug 'pignacio/vim-yapf-format'
 let g:formatdef_jx = '"yapf --style=google "'
 let g:formatters_python = ['jxm']
@@ -116,8 +116,8 @@ Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 nnoremap <silent> <C-p> :Files<CR>
 
-""""""""""""""""""""""""""""""
-Plug 'tpope/vim-surround'                                  "surround
+""""""""""""""""""""""""""""""                             "surround
+Plug 'tpope/vim-surround'                                  
 
 """"""""""""""""""""""""""""""
 Plug 'preservim/nerdcommenter'                             "注释工具
